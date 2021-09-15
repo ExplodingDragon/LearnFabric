@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "fabric_learn",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Learn Fabric ",
+  "description": "Learn Fabric",
   "authors": [
     "Me!"
   ],
@@ -14,16 +14,15 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/learn_fabric/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleModKt::init"
+      "i.learn.fabric.LearnFabricMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.8.7",
